@@ -1,0 +1,8 @@
+print('Calculadora de Área para Pintura')
+alt1 = float(input('Altura1: '))
+alt2 = float(input('Altura2: '))
+comp1 = float(input('Comprimento1: '))
+comp2 = float(input('Comprimento2: '))
+s = float(((alt1 + alt2)/2) * ((comp1 + comp2)/2))
+print(f'O valor da área em m²: {s:.2f}m² \nQuantidade de tinta necessária(1L/2m²) por mão: {s/2:.2f}L')
+print(f'Quantidade total de tinta (três demãos): {(s/2)*3:.2f}L')
